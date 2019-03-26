@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ProcessNraMsg.Properties
+namespace ProcessNRAmsg.Properties
 {
 
 
