@@ -36,9 +36,9 @@
             this.ResponceCode = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ResponceStr = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panelControls = new System.Windows.Forms.Panel();
-            this.checkBoxClose = new System.Windows.Forms.CheckBox();
-            this.labelMsg = new System.Windows.Forms.Label();
             this.labelLoopCounter = new System.Windows.Forms.Label();
+            this.labelMsg = new System.Windows.Forms.Label();
+            this.checkBoxClose = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewLog)).BeginInit();
             this.panelControls.SuspendLayout();
             this.SuspendLayout();
@@ -119,15 +119,17 @@
             this.panelControls.Size = new System.Drawing.Size(814, 21);
             this.panelControls.TabIndex = 3;
             // 
-            // checkBoxClose
+            // labelLoopCounter
             // 
-            this.checkBoxClose.AutoSize = true;
-            this.checkBoxClose.Location = new System.Drawing.Point(3, 3);
-            this.checkBoxClose.Name = "checkBoxClose";
-            this.checkBoxClose.Size = new System.Drawing.Size(171, 17);
-            this.checkBoxClose.TabIndex = 0;
-            this.checkBoxClose.Text = "Затваряне на приложението";
-            this.checkBoxClose.UseVisualStyleBackColor = true;
+            this.labelLoopCounter.AutoSize = true;
+            this.labelLoopCounter.Dock = System.Windows.Forms.DockStyle.Right;
+            this.labelLoopCounter.Location = new System.Drawing.Point(801, 0);
+            this.labelLoopCounter.Name = "labelLoopCounter";
+            this.labelLoopCounter.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
+            this.labelLoopCounter.Size = new System.Drawing.Size(13, 16);
+            this.labelLoopCounter.TabIndex = 2;
+            this.labelLoopCounter.Text = "0";
+            this.labelLoopCounter.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // labelMsg
             // 
@@ -140,17 +142,15 @@
             this.labelMsg.Text = "Програмата се затваря с маркиране на \"Затваряне на приложението\"";
             this.labelMsg.Visible = false;
             // 
-            // labelLoopCounter
+            // checkBoxClose
             // 
-            this.labelLoopCounter.AutoSize = true;
-            this.labelLoopCounter.Dock = System.Windows.Forms.DockStyle.Right;
-            this.labelLoopCounter.Location = new System.Drawing.Point(801, 0);
-            this.labelLoopCounter.Name = "labelLoopCounter";
-            this.labelLoopCounter.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
-            this.labelLoopCounter.Size = new System.Drawing.Size(13, 16);
-            this.labelLoopCounter.TabIndex = 2;
-            this.labelLoopCounter.Text = "0";
-            this.labelLoopCounter.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBoxClose.AutoSize = true;
+            this.checkBoxClose.Location = new System.Drawing.Point(3, 3);
+            this.checkBoxClose.Name = "checkBoxClose";
+            this.checkBoxClose.Size = new System.Drawing.Size(171, 17);
+            this.checkBoxClose.TabIndex = 0;
+            this.checkBoxClose.Text = "Затваряне на приложението";
+            this.checkBoxClose.UseVisualStyleBackColor = true;
             // 
             // FormMain
             // 
